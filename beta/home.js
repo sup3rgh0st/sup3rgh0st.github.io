@@ -35,7 +35,9 @@ function HomeSlide(){
     		</video>
 			*/
 			//$('.content').css("background-image","url('"+ bgImages[index] +"')");
-			var inhtml = '<video autoplay="" loop="" poster="images/blank.png" id="bgvid">';
+			var inhtml = "";
+			inhtml += '<h1>'+infoTitle[index]+'</h1>';
+			inhtml += '<video autoplay="" loop="" poster="images/blank.png" id="bgvid">';
 			inhtml += '<source src="slideshow/'+infoDir[index]+'/clip.mp4" type="video/mp4">';
 			inhtml += '<source src="slideshow/'+infoDir[index]+'/clip.ogg" type="video/ogg">';
 			inhtml += '</video>';
@@ -47,7 +49,7 @@ function HomeSlide(){
 		window.setTimeout(function() {
 			
 			var inhtml = '<p>' + infoTitle[index] + '</p>';
-			inhtml += '<p class="subtext">' + infoDetail[index][0] + ' - <a href="' + infoDetail[index][1] + '">More Info</a>' + '</p>';
+			inhtml += '<p class="subtext">' + infoDetail[index][0] + ' - <a href="' + infoDetail[index][1] + '">Learn More</a>' + '</p>';
 			$('.ssDetails').html(inhtml);
 			$('.ssDetails').fadeIn(500);
 		}, 500); 
@@ -56,9 +58,11 @@ function HomeSlide(){
 	
 	//Initial Page View//
 	var inhtml = '<p>' + infoTitle[0] + '</p>';
-	inhtml += '<p class="subtext">' + infoDetail[0][0] + ' - <a href="' + infoDetail[0][1] + '">More Info</a>' + '</p>';
+	inhtml += '<p class="subtext">' + infoDetail[0][0] + ' - <a href="' + infoDetail[0][1] + '">Learn More</a>' + '</p>';
 	$('.ssDetails').html(inhtml);
-	inhtml = '<video autoplay="" loop="" poster="images/blank.png" id="bgvid">';
+	inhtml = "";
+	inhtml += '<h1>'+infoTitle[0]+'</h1>';
+	inhtml += '<video autoplay="" loop="" poster="images/blank.png" id="bgvid">';
 	inhtml += '<source src="slideshow/'+infoDir[0]+'/clip.mp4" type="video/mp4">';
 	inhtml += '<source src="slideshow/'+infoDir[0]+'/clip.ogg" type="video/ogg">';
 	inhtml += '</video>';

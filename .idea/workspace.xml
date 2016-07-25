@@ -1,7 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4e23408-0ec8-4d31-833f-f34b77e71c1f" name="Default" comment="" />
+    <list default="true" id="f4e23408-0ec8-4d31-833f-f34b77e71c1f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/Compressed/UnityConfig.jsgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/Compressed/WebGL.datagz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/Compressed/WebGL.html.memgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/Compressed/WebGL.jsgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/Compressed/fileloader.jsgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/Release/UnityConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/Release/WebGL.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/Release/WebGL.html.mem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/Release/WebGL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/Release/fileloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/TemplateData/UnityProgress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/TemplateData/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/TemplateData/fullbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/TemplateData/fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/TemplateData/loadingbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/TemplateData/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/TemplateData/progresslogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/TemplateData/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/RollerMadness/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/Compressed/UnityConfig.jsgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/Compressed/WebGL.datagz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/Compressed/WebGL.html.memgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/Compressed/WebGL.jsgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/Compressed/fileloader.jsgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/Release/UnityConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/Release/WebGL.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/Release/WebGL.html.mem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/Release/WebGL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/Release/fileloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/TemplateData/UnityProgress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/TemplateData/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/TemplateData/fullbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/TemplateData/fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/TemplateData/loadingbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/TemplateData/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/TemplateData/progresslogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/TemplateData/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SolarSystemSimulation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/Compressed/UnityConfig.jsgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/Compressed/build.datagz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/Compressed/build.html.memgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/Compressed/build.jsgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/Compressed/fileloader.jsgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/Release/UnityConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/Release/build.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/Release/build.html.mem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/Release/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/Release/fileloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/TemplateData/UnityProgress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/TemplateData/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/TemplateData/fullbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/TemplateData/fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/TemplateData/loadingbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/TemplateData/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/TemplateData/progresslogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/TemplateData/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OldSite/apps/SpinningCubeBuild/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beta/home.js" afterPath="$PROJECT_DIR$/beta/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beta/index.html" afterPath="$PROJECT_DIR$/beta/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beta/style.css" afterPath="$PROJECT_DIR$/beta/style.css" />
+    </list>
     <ignored path="ProjectFolder.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,36 +86,38 @@
     <favorites_list name="ProjectFolder" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5827108">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.796334">
-                  <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6584022">
-                  <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beta/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.615385">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/beta/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5748792">
+              <caret line="133" column="26" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beta/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,11 +127,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/beta/index.html" />
+        <option value="$PROJECT_DIR$/beta/home.js" />
+        <option value="$PROJECT_DIR$/beta/style.css" />
       </list>
     </option>
   </component>
@@ -78,9 +151,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -107,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -123,19 +196,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sup3rgh0st.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ProjectFolder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sup3rgh0st.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beta" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../School/College/3. Junior Year/CSE 477/step4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -186,10 +274,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25830653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -224,18 +312,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/beta/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6584022">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37124658">
           <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beta/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.615385">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beta/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beta/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5748792">
+          <caret line="133" column="26" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
           <folding />
         </state>
       </provider>
