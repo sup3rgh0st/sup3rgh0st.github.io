@@ -139,7 +139,7 @@
 
 }
 /* Mobile Clients Hopefully */
-@media only screen and (max-device-width: 90mm){
+@media only screen and (-webkit-min-device-pixel-ratio: 2){
 	html, body, #midtent, #content {
 		margin: 0;
 		height: 100%;
