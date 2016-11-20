@@ -9,7 +9,6 @@
 	
 	html {
 		background:#000000;
-		overflow:hidden;
 		/*background: url(../images/tvstatic.gif) repeat;*/
 	}
 	
@@ -66,6 +65,23 @@
 		background-color:rgba(255,255,255,0.2);
 		color:rgba(255,255,255,1);
 	}
+	
+	#cellcontainer {
+		margin: 0;
+		padding: 2px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align:center;
+	}
+	
+	div.cell {
+		display: inline-block;
+		text-align:center;
+		width: 333px;
+	}
+	
+	div.cell p {
+	}
 }
 /* Skinny/Small Screen Desktop Clients */
 @media only screen and (max-width: 649px){
@@ -76,7 +92,6 @@
 	
 	html {
 		background:#000000;
-		overflow:hidden;
 		/*background: url(../images/tvstatic.gif) repeat;*/
 	}
 	
@@ -135,6 +150,23 @@
 		padding-bottom: 1em;
 		background-color:rgba(255,255,255,0.2);
 		color:rgba(255,255,255,1);
+	}
+	
+	#cellcontainer {
+		margin: 0;
+		padding: 2px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align:center;
+	}
+	
+	div.cell {
+		display: inline-block;
+		text-align:center;
+		width: 333px;
+	}
+	
+	div.cell p {
 	}
 
 }
@@ -147,7 +179,6 @@
 	
 	html {
 		background:#000000;
-		overflow:hidden;
 		/*background: url(../images/tvstatic.gif) repeat;*/
 	}
 	
@@ -206,5 +237,22 @@
 		padding-bottom: 1em;
 		background-color:rgba(255,255,255,0.2);
 		color:rgba(255,255,255,1);
+	}
+	
+	#cellcontainer {
+		margin: 0;
+		padding: 2px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align:center;
+	}
+	
+	div.cell {
+		display: inline-block;
+		text-align:center;
+		width: 333px;
+	}
+	
+	div.cell p {
 	}
 }
