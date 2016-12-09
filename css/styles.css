@@ -1,0 +1,427 @@
+@charset "utf-8";
+
+/* Full Screen Desktop Clients */
+@media only screen and (min-width: 650px) and (min-device-width: 90mm){
+	html, body, #midtent, #content {
+		margin: 0;
+		height: 100%;
+	}
+	
+	html {
+		background:#000000;
+		/*background: url(../images/tvstatic.gif) repeat;*/
+	}
+	
+	#content {
+		/*background: url(../images/background-big.png) no-repeat center center fixed;*/
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	#header {
+		padding-top: 20px;
+		padding-left: 20px;
+	}
+	
+	#header h1 {
+		margin: 0;
+		padding: 2px;
+		padding-left: 2em;
+		font-family: 'Play', sans-serif;
+		font-size:48px;
+		background-color:rgba(255,255,255,0.2);
+		color:rgba(255,255,255,1);
+	}
+	#nav{
+		margin: 0;
+		padding: 0;
+		margin-left: -5px;
+		list-style-type: none;
+		font-size:0px;
+	}
+	#nav li{
+		padding-left: 5px;
+		padding-right: 5px;
+		display: inline-block;
+		font-size:24px;
+		width: 8em;
+	}
+	
+	#nav li a{
+		text-decoration:none;
+	}
+	
+	#nav li a:hover p{
+		background-color:rgba(255,255,255,0.4);
+	}
+	
+	#nav li a p{
+		font-family: 'Play', sans-serif;
+		font-size:24px;
+		margin: 0;
+		padding: 2px;
+		background-color:rgba(255,255,255,0.2);
+		color:rgba(255,255,255,1);
+	}
+	
+	#cellcontainer {
+		margin: 0;
+		margin-top:1em;
+		padding: 2px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align:center;
+	}
+	
+	div.cell {
+		margin: 0;
+		padding: 0;
+		margin-bottom:8px;
+		margin-left:4px;
+		margin-right: 4px;
+		display: inline-block;
+		text-align:center;
+		width: 333px;
+		background-color: rgba(255,255,255,0.4);
+	}
+	
+	div.cell p {
+		margin: 0;
+		padding: 0;
+	}
+	div.celltop {
+		height: 333px;
+	}
+	div.cellbottom {
+		margin-top:8px;
+		margin-bottom: 8px;
+		margin-left: 8px;
+		margin-right: 8px;
+		padding:8px;
+		height: 301px;
+		background-color: rgba(255,255,255,0.8);
+		text-align:left;
+	}
+	div.cellbottom h2 {
+		margin: 0;
+		text-align:center;
+	}
+	div.cellbottom h3 {
+		margin: 0;
+		text-align:center;
+	}
+	
+	div.alignbottom {
+		vertical-align:bottom;
+	}
+	
+	#resume {
+		width: 60%;
+		padding: 8px 8px 16px 8px;
+		margin:auto;
+		margin-top: 32px;
+		background-color: rgba(255,255,255,0.8);
+	}
+	#resume img {
+		float:right;
+	}
+	#resume h1 {
+		margin-bottom: 8px;
+		padding-left:8px;
+	}
+	#resume h2 {
+		margin: 4px;
+		padding-left:16px;
+	}
+	#resume h3 {
+		margin: 4px;
+		padding-left:32px;
+	}
+	#resume p {
+		margin: 4px;
+		padding-left:48px;
+	}
+}
+/* Skinny/Small Screen Desktop Clients */
+@media only screen and (max-width: 649px){
+	html, body, #midtent, #content {
+		margin: 0;
+		height: 100%;
+	}
+	
+	html {
+		background:#000000;
+		/*background: url(../images/tvstatic.gif) repeat; */
+	}
+	
+	#content {
+		/*background: url(../images/background-big.png) no-repeat center center fixed;*/
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	#header {
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	#header h1 {
+		margin: 0;
+		padding: 2px;
+		font-family: 'Play', sans-serif;
+		font-size:48px;
+		text-align: center;
+		background-color:rgba(255,255,255,0.2);
+		color:rgba(255,255,255,1);
+	}
+	#nav{
+		margin: 0;
+		padding: 0;
+		width: 50%;
+		margin-left:auto;
+		margin-right:auto;
+		list-style-type: none;
+		font-size:0px;
+		text-align: center;
+	}
+	#nav li{
+		padding-top: 1em;
+		font-size:24px;
+	}
+	
+	#nav li a{
+		text-decoration:none;
+	}
+	
+	#nav li a:hover p{
+		background-color:rgba(255,255,255,0.4);
+	}
+	
+	#nav li a p{
+		font-family: 'Play', sans-serif;
+		font-size:28px;
+		margin: 0;
+		padding: 2px;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		background-color:rgba(255,255,255,0.2);
+		color:rgba(255,255,255,1);
+	}
+	
+	#cellcontainer {
+		margin: 0;
+		padding: 2px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align:center;
+	}
+	
+	div.cell {
+		display: inline-block;
+		text-align:center;
+		width: 333px;
+	}
+	
+	div.cell p {
+		margin: 0;
+		padding: 0;
+	}
+	div.celltop {
+		height: 333px;
+	}
+	div.cellbottom {
+		margin-top:8px;
+		margin-bottom: 8px;
+		margin-left: 8px;
+		margin-right: 8px;
+		padding:8px;
+		height: 301px;
+		background-color: rgba(255,255,255,0.8);
+		text-align:left;
+	}
+	div.cellbottom h2 {
+		margin: 0;
+		text-align:center;
+	}
+	div.cellbottom h3 {
+		margin: 0;
+		text-align:center;
+	}
+	
+	div.alignbottom {
+		vertical-align:bottom;
+	}
+	
+	#resume {
+		width: 60%;
+		padding: 8px 8px 16px 8px;
+		margin:auto;
+		margin-top: 32px;
+		background-color: rgba(255,255,255,0.8);
+	}
+	#resume img {
+		float:right;
+	}
+	#resume h1 {
+		margin-bottom: 8px;
+		padding-left:8px;
+	}
+	#resume h2 {
+		margin: 4px;
+		padding-left:16px;
+	}
+	#resume h3 {
+		margin: 4px;
+		padding-left:32px;
+	}
+	#resume p {
+		margin: 4px;
+		padding-left:48px;
+	}
+
+}
+/* Mobile Clients Hopefully */
+@media only screen and (-webkit-min-device-pixel-ratio: 2){
+	html, body, #midtent, #content {
+		margin: 0;
+		height: 100%;
+	}
+	
+	html {
+		background:#000000;
+		/*background: url(../images/tvstatic.gif) repeat;*/
+	}
+	
+	#content {
+		/*background: url(../images/background-big.png) no-repeat center center fixed;*/
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	#header {
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	#header h1 {
+		margin: 0;
+		padding: 2px;
+		font-family: 'Play', sans-serif;
+		font-size:48px;
+		text-align: center;
+		background-color:rgba(255,255,255,0.2);
+		color:rgba(255,255,255,1);
+	}
+	#nav{
+		margin: 0;
+		padding: 0;
+		width: 50%;
+		margin-left:auto;
+		margin-right:auto;
+		list-style-type: none;
+		font-size:0px;
+		text-align: center;
+	}
+	#nav li{
+		padding-top: 1em;
+		font-size:24px;
+	}
+	
+	#nav li a{
+		text-decoration:none;
+	}
+	
+	#nav li a:hover p{
+		background-color:rgba(255,255,255,0.4);
+	}
+	
+	#nav li a p{
+		font-family: 'Play', sans-serif;
+		font-size:28px;
+		margin: 0;
+		padding: 2px;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		background-color:rgba(255,255,255,0.2);
+		color:rgba(255,255,255,1);
+	}
+	
+	#cellcontainer {
+		margin: 0;
+		padding: 2px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align:center;
+	}
+	
+	div.cell {
+		display: inline-block;
+		text-align:center;
+		width: 333px;
+	}
+	
+	div.cell p {
+		margin: 0;
+		padding: 0;
+	}
+	div.celltop {
+		height: 333px;
+	}
+	div.cellbottom {
+		margin-top:8px;
+		margin-bottom: 8px;
+		margin-left: 8px;
+		margin-right: 8px;
+		padding:8px;
+		height: 301px;
+		background-color: rgba(255,255,255,0.8);
+		text-align:left;
+	}
+	div.cellbottom h2 {
+		margin: 0;
+		text-align:center;
+	}
+	div.cellbottom h3 {
+		margin: 0;
+		text-align:center;
+	}
+	
+	div.alignbottom {
+		vertical-align:bottom;
+	}
+	
+	#resume {
+		width: 60%;
+		padding: 8px 8px 16px 8px;
+		margin:auto;
+		margin-top: 32px;
+		background-color: rgba(255,255,255,0.8);
+	}
+	#resume img {
+		float:right;
+	}
+	#resume h1 {
+		margin-bottom: 8px;
+		padding-left:8px;
+	}
+	#resume h2 {
+		margin: 4px;
+		padding-left:16px;
+	}
+	#resume h3 {
+		margin: 4px;
+		padding-left:32px;
+	}
+	#resume p {
+		margin: 4px;
+		padding-left:48px;
+	}
+}

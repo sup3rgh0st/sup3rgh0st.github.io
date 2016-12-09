@@ -1,0 +1,133 @@
+html{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background: url("./background_mc.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+	position:relative;
+    padding: 0.5em 0.5em 2em 0.5em;
+    margin: 0 0 0 0;
+	background-color:rgba(0,0,0,0.3);
+}
+
+body header h1{
+	padding-left: 1em;
+	font-family: "Arial Black", SansSerif;
+	color: white;
+}
+
+div.NavBar{
+	text-align:center;
+	width: 780px;
+}
+
+body header div.NavItem{
+	opacity: 1.0;
+    border:1px solid black;
+    display: inline-block;
+    padding: 0.5em 2em 0.5em 2em;
+    font-family: "Arial Black", SansSerif;
+    font-size: 1em;
+    text-decoration: none;
+	background-color:rgba(0,0,0,0.3);
+}
+
+div.NavItem p{
+
+}
+
+div.NavItem a:link {
+	color: white;
+    text-decoration: none;
+}
+
+div.NavItem a:visited {
+	color: white;
+    text-decoration: none;
+}
+
+div.NavItem a:hover {
+	color:rgba(0,204,102,1);
+    text-decoration: none;
+}
+
+div.NavItem a:active {
+	color: white;
+    text-decoration: none;
+}
+
+body div.Main{
+	margin-top: 1em;
+	padding: 1em 2em 1em 2em;
+	background-color:rgba(0,0,0,0.3);
+}
+
+body div.Main div.Intro{
+	font-family: "Arial Black", SansSerif;
+	color: white;
+	font-size: 1em;
+}
+
+body div.Main div.Intro p{
+	margin:0 0 0 0;
+}
+
+body div.Main div.GameContainer{
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 0.125em 0.75em 0.125em 1em;
+	background-color:rgba(0,0,0,0.3);
+	margin-top:1em;
+}
+
+body div.Main div.GameContainer a:link {
+	color: white;
+}
+
+body div.Main div.GameContainer a:visited {
+	color: white;
+}
+
+body div.Main div.GameContainer a:hover {
+	color:rgba(0,204,102,1);
+}
+
+body div.Main div.GameContainer a:active {
+	color: white;
+}
+
+body div.Main div.GameContainer div.GameEntry{
+	
+}
+
+body div.Main div.GameContainer div.GameImage{
+	padding-right:1em;
+	display:inline-block;
+	vertical-align:top;
+}
+
+body div.Main div.GameContainer div.GameText{
+	width: 450px;
+	font-size:1em;
+	color: white;
+	display:inline-block;
+	vertical-align:top;
+}
+
+body div.Main div.GameContainer div.GameSeparator{
+	border-top:1px solid black;
+}
+
+body{
+	position: absolute;
+	width: 780px;
+	left: 50%;
+	margin-left: -390px;
+    /*padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background-color: #c0d9ff;*/
+}

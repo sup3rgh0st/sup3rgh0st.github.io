@@ -1,88 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+______                   ___  ___            _ _        _       
+| ___ \                  |  \/  |           | (_)      | |      
+| |_/ /   _  __ _ _ __   | .  . | __ _  __ _| |_  ___  | | __ _ 
+|    / | | |/ _` | '_ \  | |\/| |/ _` |/ _` | | |/ _ \ | |/ _` |
+| |\ \ |_| | (_| | | | | | |  | | (_| | (_| | | | (_) || | (_| |
+\_| \_\__, |\__,_|_| |_| \_|  |_/\__,_|\__, |_|_|\___(_)_|\__,_|
+       __/ |                            __/ |                   
+      |___/                            |___/                    
+-->
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Ryan Magliola</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/styles.css">
+<!--link rel="stylesheet" media="(min-width: 650px)" href="css/styles-wide.css">
+<link rel="stylesheet" media="(max-width: 649px),handheld" href="css/styles-skinny.css">
+<link rel="stylesheet" media="(max-device-width: 80mm)" href="css/styles-skinny.css"-->
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/image-loader.js"></script>
+<script src="js/image-changer.js"></script>
+<script>
+	$(document).ready(function() {
+		new ImageLoader();
+		//new ImageChanger();
+	});
+</script>
+
 </head>
-<body>
-    <header>
-        <h1>The Blank Page Of Ryan Magliola</h1>
-        <div class="NavBar">
-            <div class="NavItem">
-                <p><a href="./">Home</a></p>
+
+<title>Ryan Maglio.la</title>
+</head>
+
+<body id="body">
+	<div id="midtent">
+        <div id="content">
+            <div id="header">
+                <h1>Ryan Maglio.la</h1>
+                <ul id="nav">
+                    <li><a href="games.html" id="navGame"><p>Games</p></a></li>
+                    <li><a href="projects.html" id="navProj"><p>Projects</p></a></li>
+                    <li><a href="about.html" id="navResume"><p>Resume</p></a></li>
+                </ul>
             </div>
-            <div class="NavItem">
-                <p><a href="./games.html">Games</a></p>
-            </div>
-            <div class="NavItem">
-                <p><a href="./projects.html">Projects</a></p>
-            </div>
-            <div class="NavItem">
-                <p><a href="./downloads.html">Downloads</a></p>
-            </div>
-            <div class="NavItem">
-                <p><a href="./aboutme.html">About Me</a></p>
-            </div>
-        </div>
-    </header>
-    <div class="Main">
-    	<div class="Intro">
-        	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet massa sit amet blandit dictum. Fusce commodo egestas justo semper mattis.</p>
-        </div>
-        
-        <div class="GameContainer">
-            <div class="GameEntry">
-            	<div class="GameImage">
-            		<p><img src="images/auditoriumHammerIcon.png" height="200" width="200" alt="missingPic"></p>
-                </div>
-                <div class="GameText">
-                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet massa sit amet blandit dictum. Fusce commodo egestas justo semper mattis. In auctor neque in lobortis porta. Morbi fringilla ut turpis vel ultricies. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc lectus turpis, interdum vel ornare ac, dignissim nec leo. Vestibulum quis arcu nec ligula egestas dignissim.</p>
-                    <p>
-                    	<a href=""><div class="play-button"></div></a>
-                    	<a href="">Lorem ipsum dolor</a>
-                    </p>
-				</div>
-            </div>
-            <div class="GameSeparator"></div>
-            <div class="GameEntry">
-            	<div class="GameImage">
-            		<p><img src="images/missingPic.png" height="200" width="200" alt="missingPic"></p>
-                </div>
-                <div class="GameText">
-                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet massa sit amet blandit dictum. Fusce commodo egestas justo semper mattis. In auctor neque in lobortis porta. Morbi fringilla ut turpis vel ultricies. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc lectus turpis, interdum vel ornare ac, dignissim nec leo. Vestibulum quis arcu nec ligula egestas dignissim.</p>
-                    <p>
-                    	<a href=""><div class="play-button"></div></a>
-                    	<a href="">Lorem ipsum dolor</a>
-                    </p>
+            <div id="cellcontainer">
+            	<div class="cell">
+					<div class="celltop">
+						<p><img src="images/chromacannon.png" width="333" height="333" alt="ChromaCannon" /></p>
+					</div>
+					<div class="cellbottom">
+						<h2>Chroma Cannon Anthology</h2>
+						<h3>2012-2016 - ongoing</h3>
+						<h3>PC, Android, Nintendo 3DS</h3>
+						<p>Chroma Cannon is basic in design; you, the player, move around the field of play in an endurance test to survive as long as possible. Each of the games supported platforms and versions utilize slightly different mechanics to take advantage of the technology that was available to me.</p>
+                        <br />
+                        <p class="alignbottom"><a href="http://www.mediafire.com/download/v521qvr7r8cqw6g/ChromaCannon.jar">Chroma Cannon I - Play (PC)</a></p>
+                        <p class="alignbottom"><a href="https://play.google.com/store/apps/details?id=com.pixulted.chromacannonfree&hl=en">Chroma Cannon II - Play (Android)</a></p>
+                        <p class="alignbottom"><a href="http://gbatemp.net/threads/release-chroma-cannon-a-colorful-shooting-game.389306/">Chroma Cannon III - Play (Nintendo 3DS)</a></p>
+                        <p class="alignbottom"><a href="http://msugamedev.com/courses/mi445fa15/level3/magliola/">Chroma Cannon IV - Play (PC)</a></p>
+					</div>
 				</div>
             </div>
         </div>
     </div>
-    <footer>
-		<div class="Main">
-        	<div class="Footer">
-        		<p>&#169; 2014-2016 Ryan Magliola</p>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
-
-<!--
-
-<div class="GameSeparator"></div>
-            <div class="GameEntry">
-            	<div class="GameImage">
-            		<p><img src="" height="200" width="200" alt="missingPic"></p>
-                </div>
-                <div class="GameText">
-                	<p>Words about my game!</p>
-                    <p>
-                    	<a href=""><div class="play-button"></div></a>
-                    	<a href="">Download!</a>
-                    </p>
-				</div>
-            </div>
-
--->
