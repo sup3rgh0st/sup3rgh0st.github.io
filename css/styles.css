@@ -216,7 +216,7 @@
 	}
 }
 /* Skinny/Small Screen Desktop Clients */
-@media only screen and (max-width: 649px){
+@media only screen and (max-width: 649px) and (-webkit-max-device-pixel-ratio: 1.01){
 	html, body, #midtent, #content {
 		margin: 0;
 		height: 100%;
