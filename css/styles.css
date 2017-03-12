@@ -450,6 +450,16 @@
 		width: 100%;
 		height: 1800px;
 	}
+	div.sketchfab-embed-wrapper{
+		width: 333px;
+		height: 333px;
+		display: block;
+	}
+	div.sketchfab-embed-wrapper iframe {
+		width: 333px;
+		height: 333px;
+		display: block;
+	}
 }
 /* Mobile Clients Hopefully */
 @media screen and (-webkit-min-device-pixel-ratio: 1.51){
@@ -667,5 +677,14 @@
 		width: 100%;
 		height: 1800px;
 	}
-
+	div.sketchfab-embed-wrapper{
+		width: 333px;
+		height: 333px;
+		display: block;
+	}
+	div.sketchfab-embed-wrapper iframe {
+		width: 333px;
+		height: 333px;
+		display: block;
+	}
 }
