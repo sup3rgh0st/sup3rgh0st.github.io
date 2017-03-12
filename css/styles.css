@@ -326,6 +326,7 @@
 	
 	div.youtube {
 		width:560px;
+		height:346px;
 		margin-left: auto;
 		margin-right: auto;
 		border:thick solid rgba(0,0,0,1);
@@ -337,6 +338,10 @@
 		margin: 0;
 		padding: 2px 0 2px 16px;
 		background-color:rgba(153,153,153,1);
+	}
+	div.youtube iframe {
+		width:560px;
+		height:315px;
 	}
 	
 	div.cell {
@@ -553,6 +558,7 @@
 	
 	div.youtube {
 		width:560px;
+		height:346px;
 		margin-left: auto;
 		margin-right: auto;
 		border:thick solid rgba(0,0,0,1);
@@ -564,6 +570,10 @@
 		margin: 0;
 		padding: 2px 0 2px 16px;
 		background-color:rgba(153,153,153,1);
+	}
+	div.youtube iframe {
+		width:560px;
+		height:315px;
 	}
 	
 	div.cell {
