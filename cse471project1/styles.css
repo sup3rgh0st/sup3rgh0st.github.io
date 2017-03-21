@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background-image:url(background.png);
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2{
+	margin: 0;
+	margin-bottom: 0.5em;
+}
+
+a{
+	text-decoration:none;
+}
+
+body{
+	background-color:#CCC;
+	width: 512px;
+	padding: 1em;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 2em;
+}
+
+#component{
+	list-style-type: none;
+	padding: 0;
+	text-align:center;
+	margin: 4px;
+}
+
+#component li{
+	display:inline-block;
+	width:19%;
+	padding: 0.5em 0 0.5em 0;
+	text-align:center;
+	background-color:#FFF;
+}
+
+div.homebutton{
+	width:30%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	background-color:#FFF;
+}
+
+div.homebutton a{
+	display:block;
+	width:30%
+	padding: 0.5em 0 0.5em 0;
+	height:2em;
+vertical-align: middle;
+line-height: 2em; 
+	
+}
+
