@@ -10,7 +10,16 @@
 <h1>Piano</h1>
 <h2>Yaqueen Al-Marhoon</h2>
 <h2>Description</h2>
-<p>This is my description. It is written right here where you can read it.</p>
+<p>The PianoInstrumentFactory first reads the score files to set the effects indicated in it that the factory reads, and then creates a new PianoInstrument. The PianoInstrument is responsible for loading the note .wav sample, and applying the effects to the wave: if the pedal is pressed, it will play the full length of the sample, if it was not, it will change the duration of the sample to a more suitable shorter one. It also calls the Envelope function to implement the Attack-Decay-Sustain-Release effects. Finally, it sends this wave to WavePlayer to be generated. The specific note to be played, measure, beat, duration (in seconds), pedal-pressing effect, basic and advanced dynamic keys are all indicated in the .SCORE file.</p>
+<p>Supported Grading Components:</p>
+<ul>
+	<li>10 - Plays piano notes: It plays piano notes correctly from a .SCORE file by playing .wav samples from the piano folder (the complete zip)</li>
+    <li>20 - Envelope generation: It properly uses Attack-Decay-Sustain-Release envelope.</li>
+    <li>30 - Pedal simulation: It supports the notes to play for their full duration without errors.</li>
+    <li>35 - Basic dynamics: It properly determines the volume of a note based on how hard/long the key/pedal is pressed.</li>
+    <li>40 - Pedal noise: It properly plays the .wav samples pedal noise from the piano folder when the pedal is pressed or released.</li>
+    <li>50 - Advanced dynamics: It uses the Interpolate function to correctly interpolate the volume of the note.</li>
+</ul>
 <h2>Other Components</h2>
 <ul id="component">
 	<a href="./drums.html"><li>Drums</li></a>
