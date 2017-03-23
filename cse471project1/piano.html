@@ -9,6 +9,12 @@
 <body>
 <h1>Piano</h1>
 <h2>Yaqeen Al-Marhoon</h2>
+<h2>Sample</h2>
+<audio controls>
+  <source src="piano.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<p>Download <a href="piano.wav">WAV</a> (Right-Click->Save Link As)</p>
 <h2>Description</h2>
 <p>The PianoInstrumentFactory first reads the score files to set the effects indicated in it that the factory reads, and then creates a new PianoInstrument. The PianoInstrument is responsible for loading the note .wav sample, and applying the effects to the wave: if the pedal is pressed, it will play the full length of the sample, if it was not, it will change the duration of the sample to a more suitable shorter one. It also calls the Envelope function to implement the Attack-Decay-Sustain-Release effects. Finally, it sends this wave to WavePlayer to be generated. The specific note to be played, measure, beat, duration (in seconds), pedal-pressing effect, basic and advanced dynamic keys are all indicated in the .SCORE file.</p>
 <p>Supported Grading Components:</p>
