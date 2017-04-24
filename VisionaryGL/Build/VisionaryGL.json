@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "VisionaryGL.data.unityweb",
+"asmCodeUrl": "VisionaryGL.asm.code.unityweb",
+"asmMemoryUrl": "VisionaryGL.asm.memory.unityweb",
+"asmFrameworkUrl": "VisionaryGL.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
