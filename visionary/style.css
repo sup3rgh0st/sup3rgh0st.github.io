@@ -1,48 +1,47 @@
 @charset "utf-8";
 /* CSS Document */
 body{
+	margin: 0 0 0 0;
 	height: 100%;
-	background-color:#303;
+	background-color:#0a000a;
 }
 h1{
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
-    font-size:82px;
+    font-size:15vmin;
 }
 div.window{
     font-family: 'Amatic SC', cursive;
-    position: absolute;
-    width: 512px;
-    height: 512px;
-    top: 50%;
-    left: 50%;
-    margin-top: -256px;
-    margin-left: -256px;
-    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+	height: 100vmin;
+	left: 0;
+	margin-top: 50vh;
+	transform: translateY(-50vmin);
+    background-color:#0a000a;
 	color:#FF6;
     text-align: center;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 0 1em 0;
 }
 
 div.window p {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
-	font-size:50px;
+	font-size:10vmin;
 }
 
 div.window p input[type="text"] {
-	width: 40%;
-	height: 30px;
-    font-size:24px;
+	width: 40vmin;
+	height: 8vmin;
+    font-size:6vmin;
 	vertical-align:middle;
 }
 
 div.window p input[type="submit"] {
     font-family: 'Amatic SC', cursive;
-	margin-top: 40px;
-	width: 256px;
-	height: 82px;
-    font-size:50px;
+	margin-top: 4vmin;
+	width: 50vmin;
+	height: 16vmin;
+    font-size:10vmin;
 	vertical-align:middle;
 	background-color: #303;
 	color:#FF6;
@@ -51,8 +50,8 @@ div.window p input[type="submit"] {
 }
 
 div #response {
-	margin-top: 24px;
-	font-size:50px;
+	margin-top: 4vmin;
+	font-size:12vmin;
 }
 
 
