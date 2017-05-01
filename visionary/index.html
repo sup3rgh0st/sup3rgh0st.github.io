@@ -54,7 +54,7 @@ $(document).ready(function(){
          */
         $.ajax({
             type: 'POST',
-            url: 'http://69.176.135.94/visionary/selectgamewhere.php', 
+            url: 'http://35.10.150.132/visionary/selectgamewhere.php', 
             data: values,
 			success: function (response) {
 			   // you will get response from your php page (what you echo or print)                 
@@ -88,7 +88,7 @@ function insertGuess(values) {
 	//console.log("insert Guess");
 	$.ajax({
 		type: 'POST',
-		url: 'http://69.176.135.94/visionary/insertguess.php', 
+		url: 'http://35.10.150.132/visionary/insertguess.php', 
 		data: values,
 		success: function (response) {
 		},
@@ -105,7 +105,7 @@ function setGameWinner(values) {
 	//console.log("setting Winner");
 	$.ajax({
 		type: 'POST',
-		url: 'http://69.176.135.94/visionary/updategamewhere.php', 
+		url: 'http://35.10.150.132/visionary/updategamewhere.php', 
 		data: values,
 		success: function (response) {
 		},
