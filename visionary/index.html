@@ -28,7 +28,7 @@ Visionary! Web Client 2017 Ryan Magliola
         <p>Lobby ID: <input id="lobbyidPost" name="lobbyidPost" type="text" value="" placeholder="ABCD"/></p>
         <p>Your Name: <input id="playeridPost" name="playeridPost" type="text" value="" placeholder="Will"/></p>
         <p>Your Guess: <input id="wordPost" name="wordPost" type="text" value="" placeholder="Apple"/></p>
-        <p><input id="servernamePost" name="servernamePost" type="hidden" value="69.176.135.94" /></p>
+        <p><input id="servernamePost" name="servernamePost" type="hidden" value="35.10.150.132" /></p>
         <p><input type="submit" value="Submit Guess!" /></p>
     </form>
     
@@ -94,6 +94,8 @@ function insertGuess(values) {
 		},
 		error: function(jqXHR, textStatus, errorThrown) {
 			//console.log("Guess Sent");
+			//console.log(jqXHR);
+			//console.log(jqXHR.responseText.toUpperCase());
 		}
 	});
 
