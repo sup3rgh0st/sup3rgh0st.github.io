@@ -113,6 +113,12 @@
 		padding: 2px 0 2px 16px;
 		background-color:rgba(153,153,153,1);
 	}
+	div.featured {
+		position:absolute;
+		top: 574px;
+		left: 16px;
+		border:thick solid rgba(0,0,0,1);
+	}
 	
 	div.cell {
 		margin: 0;
@@ -342,6 +348,15 @@
 	div.youtube iframe {
 		width:560px;
 		height:315px;
+	}
+	
+	div.featured {
+		width:333px;
+		height:333px;
+		margin-top: 16px;
+		margin-left: auto;
+		margin-right: auto;
+		border:thick solid rgba(0,0,0,1);
 	}
 	
 	div.cell {
@@ -574,6 +589,15 @@
 	div.youtube iframe {
 		width:560px;
 		height:315px;
+	}
+	
+	div.featured {
+		width:333px;
+		height:333px;
+		margin-top: 16px;
+		margin-left: auto;
+		margin-right: auto;
+		border:thick solid rgba(0,0,0,1);
 	}
 	
 	div.cell {
