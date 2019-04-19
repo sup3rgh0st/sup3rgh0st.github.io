@@ -165,7 +165,7 @@
 	
 	div.fullcell {
 		background-color:rgba(204,204,204,1);
-		height: 333px;
+		height: 335px;
 		max-width: 900px;
 		margin-left: 20px;
 		margin-right: 20px;
@@ -180,6 +180,7 @@
 	div.fullcell img {
 		float:left;
 		margin-right:8px;
+		border:thin #000000 solid;
 	}
 	
 	div.fullCellText {
@@ -409,6 +410,7 @@
 	
 	div.fullcell img {
 		margin-right:8px;
+		border:thin #000000 solid;
 	}
 	
 	div.fullCellText {
@@ -650,6 +652,7 @@
 	
 	div.fullcell img {
 		margin-right:8px;
+		border:thin #000000 solid;
 	}
 	
 	div.fullCellText {
