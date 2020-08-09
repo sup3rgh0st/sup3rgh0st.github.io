@@ -1,0 +1,304 @@
+/* No scaling */
+@media (min-resolution: 1dpi) {
+	html{
+		zoom: 1;	
+	}
+}
+
+/*  */
+@media (min-resolution: 150dpi) {
+	html{
+		zoom: 1.5;	
+	}
+}
+
+/*  */
+@media (min-resolution: 200dpi) {
+	html{
+		zoom: 2;	
+	}
+}
+
+
+html, body, ul {
+	margin: 0;
+	height: 100%;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:24px;
+}
+
+body {
+	background:#008282;
+}
+
+footer {
+	position: fixed;
+	height: 56px;
+	background: #c3c3c3;
+	bottom: 0px;
+	width: 100%;
+}
+
+#startBar {
+	width: 100%;
+	height: 100%;	
+}
+
+#accentStripe {
+	position: fixed;
+	width: 100%;
+	background: #ffffff;
+	height: 2px;
+	bottom: 52px;
+}
+
+/*=== START BUTTON STYLE ===*/
+#startButton {
+	position: fixed;
+	background: #c3c3c3;
+	width: 108px;
+	height: 44px;
+	left: 4px;
+	bottom: 4px;
+}
+
+#startButton img {
+	position:absolute;
+	left:6px;
+	top:6px;
+}
+
+#startButton p {
+	position: absolute;
+	margin: 0 0 0 0;
+	left:44px;
+	top: 4px;
+}
+
+#sbShadeTop {
+	position: absolute;
+	background: #ffffff;
+	height: 2px;
+	width: 106px;
+	left: 0px;
+	top: 0px;
+}
+#sbShadeLeft {
+	position: absolute;
+	background: #ffffff;
+	height: 42px;
+	width: 2px;
+	top: 0px;
+}
+#sbShadeRight {
+	position: absolute;
+	background: #808080;
+	height:40px;
+	width:2px;
+	left:104px;
+	top:2px;
+}
+#sbShadeBottom {
+	position: absolute;
+	background: #808080;
+	height:2px;
+	width:104px;
+	left:2px;
+	top:40px;	
+}
+#sbShadowRight {
+	position: absolute;
+	background: #000000;
+	height: 44px;
+	width: 2px;
+	left: 106px;
+	top: 0px;
+	
+}
+#sbShadowBottom {
+	position: absolute;
+	background: #000000;
+	height: 2px;
+	width: 108px;
+	left: 0px;
+	top: 42px;
+	
+}
+/*=== START BUTTON STYLE END ===*/
+
+#startMenu {
+	position: fixed;
+	background: #c3c3c3;
+	width:300px;
+	bottom:60px;
+	left: 4px;
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+}
+
+#startMenuLogo {
+	position: absolute;
+	background: #808080;
+	width: 42px;
+	top: 6px;
+	left: 6px;
+	bottom: 6px;
+}
+
+#startMenuLogo img {
+	position: absolute;
+	bottom: 0px;
+	left: 2px;
+}
+
+#startMenu ul{
+	list-style-type: none;
+	padding-left:60px;
+}
+
+#startMenu li{
+	height: 64px;
+	margin: 5px 0px 5px 0px;
+}
+
+#startMenu li:hover{
+	background-color: #000080;
+	color:#FFF;
+}
+
+#startMenu ul span{
+	position:relative;
+	top:-23px;
+	left: 20px;
+}
+/**/
+
+.icon{
+	width: 110px;
+	text-align: center;
+	display:inline-block;
+}
+
+#desktopIcons{
+	padding: 10px 0px 0px 10px;
+	width: 40%;
+}
+
+#desktopIcons p{
+	position:relative;
+	margin: 0 0 0 0;
+	color:#FFF;
+ 	text-align: center;
+}
+
+/**/
+
+.window{
+	position: absolute;
+	background-color: #c0c0c0;
+	width: 400px;
+	height: 300px;
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+}
+
+.windowBar{
+	margin: 4px 4px 4px 4px;
+	color:#FFF;
+	background-color:#000080;
+	height:32px;
+}
+
+.windowBar img{
+	position: absolute;
+	left: 6px;
+	top: 6px;	
+}
+
+.windowBar span{
+	position: absolute;
+	left: 40px;
+}
+
+.windowClose{
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	width: 32px;
+	height: 28px;
+}
+
+.windowClose img{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.windowContent{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 4px 4px 4px 4px;
+	width: 392px;
+	height: 256px;
+}
+
+#windowLocation{
+	top: 50px;
+	left: 120px;	
+}
+
+#windowLocation span{
+	width: 388px;	
+}
+
+#windowDate{
+	top: 80px;
+	left: 100px;	
+}
+
+#windowRSVP{
+	top: 110px;
+	left: 110px;	
+}
+
+#windowHotels{
+	top: 140px;
+	left: 120px;	
+}
+
+#windowHotels h1{
+	margin:0;
+	font-size:24px;	
+}
+#windowHotels p{
+	margin:0;
+	font-size:24px;	
+}
+
+#windowContacts{
+	top: 170px;
+	left: 100px;	
+}
+
+#windowRegistry{
+	top: 200px;
+	left: 110px;	
+}
+
+#windowCovid{
+	top: 230px;
+	left: 120px;	
+}
+
+.emboss{
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	background-color:#e8e8e8;
+	margin-top:4px;
+	display:table;
+}

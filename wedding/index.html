@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,maximum-scale=1,user-scalable=no"/>
+    <link rel="stylesheet" href="index.css" />
+    <title>Magliola 21</title>
+</head>
+
+<body>
+
+<div id="desktop">
+	<div id="desktopIcons">
+        <div id="iconLocation" class="icon" onclick="showWindow('windowLocation')">
+        	<img src="assets/iconGlobe.png" width="64" height="64" /><p>Location</p>
+        </div>
+        <div id="iconRSVP" class="icon" onclick="showWindow('windowRSVP')">
+        	<img src="assets/iconCard.png" width="64" height="64" /><p>RSVP</p>
+        </div>
+        <div id="iconDate" class="icon" onclick="showWindow('windowDate')">
+        	<img src="assets/iconCalendar.png" width="64" height="64" /><p>Date</p>
+        </div>
+        <div id="iconHotels" class="icon" onclick="showWindow('windowHotels')">
+        	<img src="assets/iconAddress.png" width="64" height="64" /><p>Hotels</p>
+        </div>
+        <div id="iconContacts" class="icon" onclick="showWindow('windowContacts')">
+        	<img src="assets/iconPhone.png" width="64" height="64" /><p>Contacts</p>
+        </div>
+        <div id="iconRegistry" class="icon" onclick="showWindow('windowRegistry')">
+        	<img src="assets/iconTools.png" width="64" height="64" /><p>Registry</p>
+        </div>
+        <div id="iconCovid" class="icon" onclick="showWindow('windowCovid')">
+        	<img src="assets/iconPeople.png" width="64" height="64" /><p>Covid</p>
+      </div>
+    </div>
+  	<div id="startMenu" style="display: none;">
+    	<div id="startMenuLogo"><img src="assets/magliola21.png" width="38" height="212" /></div>
+   		<ul>
+        	<li onclick="showWindow('windowLocation')">
+            	<img src="assets/iconGlobe.png" width="64" height="64">
+                <span>Location</span>
+            </li>
+        	<li onclick="showWindow('windowRSVP')">
+            	<img src="assets/iconCard.png" width="64" height="64">
+                <span>RSVP</span>
+            </li>
+        	<li onclick="showWindow('windowDate')">
+            	<img src="assets/iconCalendar.png" width="64" height="64">
+                <span>Date</span>
+            </li>
+            <li onclick="showWindow('windowHotels')">
+            	<img src="assets/iconAddress.png" width="64" height="64">
+                <span>Hotels</span>
+          	</li>
+          <li onclick="showWindow('windowContacts')">
+            	<img src="assets/iconPhone.png" width="64" height="64">
+                <span>Contacts</span>
+          	</li>
+          <li onclick="showWindow('windowRegistry')">
+            	<img src="assets/iconTools.png" width="64" height="64">
+                <span>Registry</span>
+          	</li>
+       	  <hr />
+            <li onclick="showWindow('windowCovid')">
+            	<img src="assets/iconPeople.png" width="64" height="64">
+                <span>Covid</span>
+            </li>
+        </ul>
+    </div>
+    <!-- Blank
+    <div id="###########" class="window" style="display: none;">
+    	<div class="windowBar">
+        	<img src="assets/iconGlobe.png" height="28" width="28" />
+        	<span>Blank Window</span>
+            <div class="windowClose" onclick="hideWindow('###########')">
+            	<img src="assets/buttonClose.png" height="28" width="32" />
+            </div>
+        </div>
+        <div class="windowContent">
+        	
+        </div>
+    </div>
+    -->
+    
+    <!-- Location -->
+    <div id="windowLocation" class="window" style="display: none;">
+    	<div class="windowBar">
+        	<img src="assets/iconGlobe.png" height="28" width="28" />
+        	<span>Location</span>
+            <div class="windowClose" onclick="hideWindow('windowLocation')">
+            	<img src="assets/buttonClose.png" height="28" width="32" />
+            </div>
+        </div>
+        <div class="windowContent">
+        	<iframe class="emboss" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4141.5925963724085!2d-86.10107807339031!3d42.77675923814438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x25bbf50e0bb3a4ef!2sBaker%20Lofts%20Events%20Weddings%20and%20Banquets!5e0!3m2!1sen!2sus!4v1597002040216!5m2!1sen!2sus" width="392" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <span class="emboss">171 E 24th St Holland, MI 49423</span>
+        </div>
+    </div>
+    <!-- /Location -->
+    
+    <!-- RSVP -->
+    <div id="windowRSVP" class="window" style="display: none;">
+    	<div class="windowBar">
+        	<img src="assets/iconCard.png" height="28" width="28" />
+        	<span>RSVP</span>
+            <div class="windowClose" onclick="hideWindow('windowRSVP')">
+            	<img src="assets/buttonClose.png" height="28" width="32" />
+            </div>
+        </div>
+        <div class="windowContent">
+        	
+        </div>
+    </div>
+    <!-- /RSVP -->
+    
+    <!-- Date -->
+    <div id="windowDate" class="window" style="display: none;">
+    	<div class="windowBar">
+        	<img src="assets/iconCalendar.png" height="28" width="28" />
+        	<span>Date</span>
+            <div class="windowClose" onclick="hideWindow('windowDate')">
+            	<img src="assets/buttonClose.png" height="28" width="32" />
+            </div>
+        </div>
+        <div class="windowContent">
+        	
+        </div>
+    </div>
+    <!-- /Date -->
+    
+    <!-- Hotels -->
+  <div id="windowHotels" class="window" style="display: none;">
+    	<div class="windowBar">
+        	<img src="assets/iconAddress.png" height="28" width="28" />
+        	<span>Hotels</span>
+            <div class="windowClose" onclick="hideWindow('windowHotels')">
+            	<img src="assets/buttonClose.png" height="28" width="32" />
+            </div>
+        </div>
+        <div class="windowContent">
+        	<h1>The example one - (1.0mi)</h1>
+            <p><a href="">hyperlink</a></p>
+            <hr />
+        	<h1>The example two - (1.0mi)</h1>
+            <p><a href="">hyperlink</a></p>
+            <hr />
+        	<h1>The example three - (1.0mi)</h1>
+            <p><a href="">hyperlink</a></p>
+      </div>
+    </div>
+    <!-- /Hotels -->
+    
+    <!-- Contacts -->
+    <div id="windowContacts" class="window" style="display: none;">
+    	<div class="windowBar">
+        	<img src="assets/iconPhone.png" height="28" width="28" />
+        	<span>Contacts</span>
+            <div class="windowClose" onclick="hideWindow('windowContacts')">
+            	<img src="assets/buttonClose.png" height="28" width="32" />
+            </div>
+        </div>
+        <div class="windowContent">
+        	
+        </div>
+    </div>
+    <!-- /Contacts -->
+    
+    <!-- Registry -->
+    <div id="windowRegistry" class="window" style="display: none;">
+    	<div class="windowBar">
+        	<img src="assets/iconTools.png" height="28" width="28" />
+        	<span>Registry</span>
+            <div class="windowClose" onclick="hideWindow('windowRegistry')">
+            	<img src="assets/buttonClose.png" height="28" width="32" />
+            </div>
+        </div>
+        <div class="windowContent">
+        	
+        </div>
+    </div>
+    <!-- /Registry -->
+    
+    <!-- Covid -->
+    <div id="windowCovid" class="window" style="display: none;">
+    	<div class="windowBar">
+        	<img src="assets/iconPeople.png" height="28" width="28" />
+        	<span>Covid</span>
+            <div class="windowClose" onclick="hideWindow('windowCovid')">
+            	<img src="assets/buttonClose.png" height="28" width="32" />
+            </div>
+        </div>
+        <div class="windowContent">
+        	
+        </div>
+    </div>
+    <!-- /Covid -->
+    
+</div>
+
+<footer>
+	<div id="startBar">
+    	<div id="accentStripe"></div>
+    	<div id="startButton" onclick="toggleStartMenu()">
+        	<img src="assets/startIcon.png" width="32" height="28" alt="icon" />
+            <p>Start</p>
+        	<div id="sbShadeTop"></div>
+        	<div id="sbShadeLeft"></div>
+        	<div id="sbShadeRight"></div>
+        	<div id="sbShadeBottom"></div>
+        	<div id="sbShadowRight"></div>
+        	<div id="sbShadowBottom"></div>
+        </div>
+        <div id="tray">
+        </div>
+    </div>
+</footer>
+
+<script>
+windows = ["windowLocation","windowRSVP","windowDate","windowHotels","windowContacts","windowRegistry","windowCovid"]
+
+function bringWindowToFront(a) {
+	windows.forEach(function(win,index,array){
+		var x = document.getElementById(win);
+		x.style.zIndex = 1;
+	});
+	
+	var x = document.getElementById(a);
+		x.style.zIndex = 9999;
+}
+
+function toggleStartMenu() {
+  var x = document.getElementById("startMenu");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showWindow(a) {
+	var x = document.getElementById(a);
+	x.style.display = "block";
+	
+	var x = document.getElementById("startMenu");
+    x.style.display = "none";
+	
+	bringWindowToFront(a)
+}
+
+function hideWindow(a) {
+	var x = document.getElementById(a);
+	x.style.display = "none";
+}
+</script>
+
+</body>
+</html>
