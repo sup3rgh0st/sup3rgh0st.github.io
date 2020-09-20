@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(200,200,250,1) 35%, rgba(127,127,182,1) 100%); height:100%">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+    <div style="display:grid; place-items:center">
+    	<p style="font-size: 24px;">The Soup Bowl TTT Server</p>
+    	<img src="luigi-spin.gif"/>
+      <p id="tip"></p>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+	function tip() {
+    var tip = [
+        'Try using the slam!',
+        'Try using the radio!',
+        'Try using the teleporter!',
+        'Try using the defibrillator!',
+        'Try using the C4 if everyone is grouped up!',
+        'Kill the detective first!',
+        'For style points, use the Barrett 50. Cal!',
+        'Drop/Pickup is faster than the reload on the Barrett 50. Cal!'
+	];
+    return tip[Math.floor((Math.random() * tip.length))];
+}
+
+document.getElementById("tip").innerHTML = "Tip of the Day: " + tip();
+</script>
