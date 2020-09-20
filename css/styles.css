@@ -166,7 +166,7 @@
 	div.fullcell {
 		background-color:rgba(204,204,204,1);
 		height: 335px;
-		max-width: 335px;
+		max-width: 900px;
 		margin-left: 20px;
 		margin-right: 20px;
 		margin-bottom: 16px;
@@ -239,9 +239,7 @@
 		margin: 4px;
 		padding-left:48px;
 	}
-	#basic-modal-content {
-    	display: none;
-	}
+	
 }
 /* Skinny/Small Screen Desktop Clients */
 @media only screen and (max-width: 649px) and (-webkit-max-device-pixel-ratio: 1.5){

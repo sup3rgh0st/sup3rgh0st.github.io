@@ -14,17 +14,13 @@ ______                   ___  ___            _ _        _
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/modal.css">
 <!--link rel="stylesheet" media="(min-width: 650px)" href="css/styles-wide.css">
 <link rel="stylesheet" media="(max-width: 649px),handheld" href="css/styles-skinny.css">
 <link rel="stylesheet" media="(max-device-width: 80mm)" href="css/styles-skinny.css"-->
 <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
-<script src="js/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/image-loader.js"></script>
 <script src="js/image-changer.js"></script>
-<script src="js/basic.js"></script>
-<script src="js/jquery.simplemodal.js"></script>
 <script>
 	$(document).ready(function() {
 		new ImageLoader();
@@ -49,32 +45,174 @@ ______                   ___  ___            _ _        _
                     <li><a href="about.html" id="navResume"><p>Resume</p></a></li>
                 </ul>
             </div>
-            <div id="grid">
+            <div class="fullCellHolder">
             
-                <img src="images/spellswipe.png" class="tile" id="spellswipe" width="333" height="333" alt="Spell Swipe" />
-                <img src="images/visionary.png" width="333" height="333" alt="Visionary" />
-                <img src="images/greatestcity.png" width="333" height="333" alt="Greatest City" />
-                <img src="images/vesta.png" width="333" height="333" alt="Vesta" />
-                <img src="images/chromacannon.png" width="333" height="333" alt="ChromaCannon" />
-                <img src="images/goingrogue.png" width="333" height="333" alt="Going Rogue" />
-                <img src="images/isotopolis.png" width="333" height="333" alt="Isotopolis" />
-                <img src="images/cavegame.png" width="333" height="333" alt="Cave Game" />
-                <img src="images/mazetraining.png" width="333" height="333" alt="Maze Training" />
-                <img src="images/drosera.png" width="333" height="333" alt="Drosera" />
-                <img src="images/yozakura.png" width="333" height="333" alt="Yozakura" />
-              
+            	<div class="fullcell">
+                    <iframe style="float:left; padding-right:1em; height:333px !important;" width="592" height="333" src="https://www.youtube.com/embed/zUjzLzjdiNw" frameborder="0" allowfullscreen></iframe>
+                    <h2>Demo Reel</h2>
+                    <p>Most projects showcased here were created when I was in college, spanning 2015 through 2017.</p>
+                </div>
+            
+            	<div class="fullcell">
+                    <img src="images/spellswipe.png" width="333" height="333" alt="Greatest City" />
+                    <div class="fullCellText">
+                      <h2>Spell Swipe - 15 weeks</h2>
+                        <h3>2017</h3>
+                        <h3>Android, iOS</h3>
+                        <p>Spell Swipe was made as a senior design project at Michigan State Univeristy in collabortaion with Deep Silver Volition. Spell Swipe features the player drawing runes on their screen to cast powerful spells at waves of skeletons.</p>
+                        <p>For this game, I wrote the robust shape recognition system that detects various patterns in a diamond shape. The shape is then encoded into an 8-bit number which is passed to the casting system. The Casting system, which I also wrote, handles monsters represented by 64-bit ulongs (8 * 8-Bit Runes). Bitwise operators are used for monster creation and damage, so it is very fast and resource friendly.</p>
+                        <br />
+                        <p class="alignbottom"><a href="https://play.google.com/store/apps/details?id=com.Volition.VolitionMobile">Play on Android</a></p><p class="alignbottom"><a href="https://itunes.apple.com/us/app/spell-swipe/id1196437979">Play on iOS</a></p>
+                    </div>
+                </div>
+            
+            	<div class="fullcell">
+                    <img src="images/visionary.png" width="333" height="333" alt="Greatest City" />
+                    <div class="fullCellText">
+                      <h2>Visionary</h2>
+                        <h3>2017 - 3 Weeks</h3>
+                        <h3>HTC Vive VR, Web</h3>
+                        <p>Experience the thrill of extending your creativity into the next generation with Visionary! Construct your secretly chosen word to your viewers, both locally and over the internet, as they try to guess what your masterpiece resembles.</p>
+                        <p>For Visionary, I was the sole programmer teamed with two talented 3D artists. In addition to the base game, I also wrote a custom online backbone that resembles "Jackbox Party Pack" branded games. All Visionary sessions are stored online in a mySQL database using PHP. Users can then submit guesses by navigating to Visionary's light-weight webclient and providing the simple 4 character lobby id which is shown on the builder's screen. The builder's client can then receive the guesses from the server, display them on screen, and check if a guess is a winner.</p>
+                        <br />
+                        <p class="alignbottom"><a href="http://maglio.la/files/Visionary.zip">Download Visionary</a> - <a href="http://maglio.la/visionary">Web Client</a></p>
+                  </div>
+              </div>
+            
+            	<div class="fullcell">
+                    <img src="images/greatestcity.png" width="333" height="333" alt="Greatest City" />
+                    <div class="fullCellText">
+                        <h2>Greatest City</h2>
+                        <h3>2016 - 15 weeks</h3>
+                        <h3>PC</h3>
+                        <p>In a far off land, a boy named Sully has a dream: Create the greatest city of all time. Control Sully as he explores an infinite, randomly generated world, collecting resources and recruiting villagers to help him on his journey.</p>
+                        <p>For this game, I developed the interface for saving and loading assets from custom text based files. Additionally, I wrote the character controller with its freely rotatable camera. The world's infinite terrain generation was a struggle, but I was able to isolate blocks of code into coroutines which greatly improved the game's performance.</p>
+                        <br />
+                        <p class="alignbottom"><a href="https://gamedev.msu.edu/greatest-city/">Learn More - Play (PC)</a></p>
+                    </div>
+                </div>
+                
+                <div class="fullcell">
+                    <img src="images/vesta.png" width="333" height="333" alt="Vesta" />
+                    <div class="fullCellText">
+                        <h2>VESTA – Virtual Vineyard</h2>
+                        <h3>2016-2017</h3>
+                        <h3>HTC Vive VR, WebGL</h3>
+                        <p>The Virtual Vineyards project is exploring innovative approaches to providing viticulture and enology education to professionals through the use of virtual reality and web technologies. The project is funded by the National Science Foundation through the Viticulture Enology Science and Technology Alliance (VESTA).</p>
+                        <p>I designed and developed one of the included simulations that guides a player through filling a basket press to squeeze their collected fermented grapes into wine. This is done 100% within the virtual playspace, which provides a unique experience like no other.</p>
+                        <br />
+                        <p class="alignbottom"><a href="http://gel.msu.edu/vesta/">Learn More</a></p>
+                        <p class="alignbottom"><a href="http://upnorthlive.com/news/local/new-virtual-reality-training-for-wine-industry-students">News Coverage</a></p>
+                    </div>
+                </div>
+            
+                <div class="fullcell">
+                    <img src="images/chromacannon.png" width="333" height="333" alt="ChromaCannon" />
+                    <div class="fullCellText">
+                        <h2>Chroma Cannon Anthology</h2>
+                        <h3>2012-2016 - ongoing</h3>
+                        <h3>PC, Android, Nintendo 3DS</h3>
+                        <p>Chroma Cannon is basic in design; you, the player, move around the field of play in an endurance test to survive as long as possible while racking up your high score. Each of the games supported platforms and versions utilize slightly different mechanics to take advantage of the technology that was available to me based on the platform. CC3 uses the touch screen and analogue stick from the Nintendo 3DS to move the player and direct their shoot direction. CC2 uses the multi-touch screen for movement, allowing the first finger to move and the second finger to shoot.</p>
+                        <br />
+                        <p class="alignbottom"><a href="http://www.mediafire.com/download/v521qvr7r8cqw6g/ChromaCannon.jar">Chroma Cannon I - Play (PC)</a></p>
+                        <p class="alignbottom"><a href="https://play.google.com/store/apps/details?id=com.pixulted.chromacannonfree&hl=en">Chroma Cannon II - Play (Android)</a></p>
+                        <p class="alignbottom"><a href="http://gbatemp.net/threads/release-chroma-cannon-a-colorful-shooting-game.389306/">Chroma Cannon III - Play (Nintendo 3DS)</a></p>
+                        <p class="alignbottom"><a href="http://msugamedev.com/courses/mi445fa15/level3/magliola/">Chroma Cannon IV - Play (PC)</a></p>
+                    </div>
+                </div>
+                
+                <div class="fullcell">
+                    <img src="images/goingrogue.png" width="333" height="333" alt="Going Rogue" />
+                    <div class="fullCellText">
+                        <h2>Going Rogue</h2>
+						<h3>2016 - 5 weeks</h3>
+						<h3>PC</h3>
+						<p>Gone Rogue is a fully random roguelike dungeon crawling game featuring three unique floors, each with their own unique boss. For this project, I handled all of the game’s random dungeon generation code, which was a lot of fun to write. Additionally, I wrote the games character and camera controller which was made to resemble the original Zelda title for the NES. On top of that, I also coded the level one and three (electric and fire) boss AI.</p>
+                        <br />
+                        <p class="alignbottom"><a href="http://msugamedev.com/courses/mi455sp16/project2/group4/">Learn more - Play (PC)</a></p>
+                        <br />
+                    </div>
+                </div>
+                
+                <div class="fullcell">
+                    <img src="images/isotopolis.png" width="333" height="333" alt="Isotopolis" />
+                    <div class="fullCellText">
+                        <h2>Isotopolis</h2>
+						<h3>2016 - ongoing</h3>
+						<h3>PC,Web,Android,iOS</h3>
+						<p>Isotopolis is an exploratory game about the process of discovering rare isotopes. I aided in the development of the tutorial systems for this game, as well as a whole host of other features and bug fixes. Initially, the game was confusing for new players which provided a restrictive barrier to entry. We added fully voiced dialogue boxes explaining each step in detail, as well as modifying some steps to be more clear to the player. I also wrote a text to speech engine which speaks the name of the isotope name along with its atomic mass that the player creates.</p>
+                        <br/>
+                        <p class="alignbottom"><a href="http://gel.msu.edu/isotopolis/">Learn More</a></p>
+                        <p class="alignbottom"><a href="https://play.google.com/store/apps/details?id=com.gellab.isotopolis&hl=en">Play (Android)</a>   
+                        <a href="https://itunes.apple.com/us/app/isotopolis/id1051370087?mt=8">Play (iOS)</a></p>
+                        <p class="alignbottom"><a href="http://gel.msu.edu/isotopolis-game">Play (Web)</a></p>
+                        <br/>
+                    </div>
+                </div>
+                
+                <div class="fullcell">
+                    <img src="images/cavegame.png" width="333" height="333" alt="Cave Game" />
+                    <div class="fullCellText">
+                        <h2>Cave Game</h2>
+						<h3>2015 - 1 week</h3>
+						<h3>PC, Web</h3>
+						<p>Cave Game was the first scrollable 2D game I've made, as well as the first game where I experiemented with random level generation. The player's goal is to collect a specified amount of fuel for their mining drill that is randomly scattered about the world. Platforms are generated in chunks on the fly when they are nearby offscreen. Each chunk remains in memory, so platform locations remain constant during the player's run.</p>
+                        <br/>
+                        <p class="alignbottom"><a href="http://msugamedev.com/courses/mi445fa15/level4/magliola/">Learn More - Play (Web/PC)</a></p>
+                    </div>
+                </div>
+                
+                <div class="fullcell">
+                    <img src="images/mazetraining.png" width="333" height="333" alt="Maze Training" />
+                    <div class="fullCellText">
+                        <h2>Maze Training</h2>
+						<h3>2016 - 2 months</h3>
+						<h3>PC</h3>
+						<p>Brain Powered Games, Maze Training, is a game developed at the Games for Entertainment and Learning Lab at MSU designed to stimulate brain activity and growth through memory and repetition. For this game, I developed and wrote a random maze generator that the player would navigate in memory activities.</p>
+                        <br/>
+                        <p class="alignbottom"><a href="http://brainpoweredgames.msu.edu/science.php">Learn More</a></p>
+                    </div>
+                </div>
+                
+                <div class="fullcell">
+                    <img src="images/drosera.png" width="333" height="333" alt="Drosera" />
+                    <div class="fullCellText">
+                        <h2>Drosera</h2>
+						<h3>2016 - 5 weeks</h3>
+						<h3>PC, Android</h3>
+						<p>Drosera is a tile based tower defense game built for PC and Android featuring a unique powerup and energy system to sustain your towers. For this game I wrote the main backend that made the whole game come together. This includes the tile based nature of the game, as well as writing a custom level importer that allowed designers to easily write waves of enemies without ever touching a single piece of code.</p>
+                        <p class="alignbottom"><a href="http://msugamedev.com/courses/mi455sp16/project3/group7/">Learn More - Play (PC)</a></p>
+                        <p class="alignbottom"><a href="https://play.google.com/store/apps/details?id=com.Pixulted.Drosera">Play (Android)</a></p>
+                    </div>
+                </div>
+                
+                <div class="fullcell">
+                    <img src="images/yozakura.png" width="333" height="333" alt="Yozakura" />
+                    <div class="fullCellText">
+                        <h2>Yozakura</h2>
+						<h3>2016 - 5 Weeks</h3>
+						<h3>PC</h3>
+						<p>Yozakura features a unique 2D locked side scrolling platformer in a 3D environment. The twist is that the 2D lock can shift in increments within the foreground and background. While layer shifting, the player can only see one layer adjacent to them, which results in a unique puzzle environment that tests wit, skill, and memory. I was the only programmer for this project.</p>
+                        <br/>
+                        <p class="alignbottom"><a href="http://msugamedev.com/courses/mi455sp16/project1/group6/">Learn More - Play (PC)</a></p>
+                    </div>
+                </div>
+                
+                <!--
+                <div class="fullcell">
+                    <img src="images/kartracinggame.png" width="333" height="333" alt="Kart Racing Game" />
+                    <div class="fullCellText">
+                        <h2>Kart Racing Game</h2>
+						<h3>2015 - 5 weeks</h3>
+						<h3>PC</h3>
+						<p>This game plays as a standard racing game with 2-Player and Time Trial Modes. As the main programmer in the team, I wrote the mechanics that drove the AI, the scripts that ensure you traversed the entire track length, cut scene code, multiplayer code, and more. The project itself looks a little rough around the edges, but the game's backbone is fully functional and could potentially be used in the future.</p>
+                        <br />
+                        <p class="alignbottom"><a href="http://msugamedev.com/courses/mi445fa15/level5/group9/">Learn More - Play (PC)</a></p>
+                    </div>
+                </div>
+                -->
+                
             </div>
-            <div class="modal-content" id="spellswipe-modal-content">
-                <h3>Spell Swipe</h3>
-                <p>Text</p>
-                <p>Text</p>
-                <p><code>$('#basicModalContent').modal(); // jQuery object - this demo</code></p>
-                <p><code>$.modal(document.getElementById('basicModalContent')); // DOM</code></p>
-                <p><code>$.modal('&lt;p&gt;&lt;b&gt;HTML&lt;/b&gt; elements&lt;/p&gt;'); // HTML</code></p>
-                <p><code>$('&lt;div&gt;&lt;/div&gt;').load('page.html').modal(); // AJAX</code></p>
-            
-                <p><a href='http://www.ericmmartin.com/projects/simplemodal/'>More details...</a></p>
-			</div>
         </div>
     </div>
 </body>
