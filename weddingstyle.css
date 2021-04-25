@@ -12,6 +12,14 @@ body {
 .center {
 	text-align: center;	
 }
+.centerflex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position:relative;
+	top: -26px;
+	font-size:32px;	
+}
 #soupbowlName{
 	font-family: 'Major Mono Display', monospace;	
 	font-size:48px;
@@ -55,7 +63,8 @@ body {
 	-o-transition: background-color 0.3s ease-in-out, padding-left 0.3s;
 	transition: background-color 0.3s ease-in-out, padding-left 0.3s;
 }
-
+.link span{
+}
 
 
 
