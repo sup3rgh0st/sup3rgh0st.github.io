@@ -1,0 +1,16 @@
+
+body {
+  background-image: url('assets/background_stars.gif');
+  background-repeat: repeat; /* Or repeat-x, repeat-y, no-repeat */
+}
+
+#centeredBody {
+	width: 1280px; /* Or any desired width */
+	margin: 0 auto;
+	margin-top: 36px;
+}
+
+h1, p {
+	color: white;
+	font-family: 'Share Tech Mono', monospace;	
+}
