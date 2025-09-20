@@ -1,7 +1,9 @@
 var player;
 var globalVideoIndex;
+var totalChannels = 4;
 
 function onYouTubePlayerAPIReady() {
+	console.log("Hello! I'm glad you're here. -sup3rgh0st")
 	console.log("Creating video player. Total videoIds:",videoIds.length, " Total durations", durations.length, " (these should match)");
 	console.log("Total content length: >=", Math.floor(getTotalPlaylistDuration() / 60 / 60 / 24), " days");
 	createVideoPlayer();
@@ -13,10 +15,13 @@ function getTotalPlaylistDuration() {
 	return sum;
 }
 
-function getPlayerVideo() {
-	const epochMilliseconds = Date.now();
-	const epochSeconds = Math.floor(epochMilliseconds / 1000);
-	playlistPosition = epochSeconds % getTotalPlaylistDuration();
+function getPlayerVideo(channelNum) {
+	const epochSeconds = Math.floor(Date.now() / 1000);
+	const totalPlaylistDuration = getTotalPlaylistDuration();
+	const channelOffset = (totalPlaylistDuration / totalChannels * channelNum);
+	playlistPosition = (epochSeconds + channelOffset) % totalPlaylistDuration;
+	
+	console.log("Getting video from playlist, playlistPosition:", playlistPosition," channelOffset:",channelOffset);
 	
 	for (let i = 0; i < durations.length ;i++)
 	{
@@ -32,8 +37,24 @@ function getPlayerVideo() {
 	return[videoIds[0], 0];
 }
 
+function setCurrentlyPlaying(name) {
+	const myDiv = document.getElementById("playerCurrentlyPlaying");
+	myDiv.innerText = name;
+}
+
+function playNextVideo() {
+	globalVideoIndex++;
+	console.log("Playing video:",videoIds[globalVideoIndex], " index:",globalVideoIndex);
+	player.loadVideoById(videoIds[globalVideoIndex]); 
+}
+
+function changeChannel(channelNum) {
+	const [id, videoPosition] = getPlayerVideo(channelNum);
+	player.loadVideoById({'videoId' : id, 'startSeconds' : videoPosition}); 
+}
+
 function createVideoPlayer() {
-	const [id, videoPosition] = getPlayerVideo();
+	const [id, videoPosition] = getPlayerVideo(0);
 	console.log("Playing video:",id, " index:",globalVideoIndex, " start:", videoPosition);
 	player = new YT.Player('player', {
 		height: '720',
@@ -51,19 +72,8 @@ function createVideoPlayer() {
 	});
 }
 
-function setCurrentlyPlaying(name) {
-	const myDiv = document.getElementById("playerCurrentlyPlaying");
-	myDiv.innerText = name;
-}
-
 function onPlayerReady(event) {
 	event.target.playVideo();
-}
-
-function playNextVideo() {
-	globalVideoIndex++;
-	console.log("Playing video:",videoIds[globalVideoIndex], " index:",globalVideoIndex);
-	player.loadVideoById(videoIds[globalVideoIndex]); 
 }
 
 function onPlayerStateChange(event) {        
@@ -71,7 +81,6 @@ function onPlayerStateChange(event) {
 		playNextVideo()
 	}else if(event.data === YT.PlayerState.PLAYING) {
 		setCurrentlyPlaying(event.target.videoTitle);
-		console.log(event.target.getVideoData);
 	}
 }
 
