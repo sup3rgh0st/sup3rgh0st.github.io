@@ -4,8 +4,9 @@ var totalChannels = 4;
 
 function onYouTubePlayerAPIReady() {
 	console.log("Hello! I'm glad you're here. -sup3rgh0st")
-	console.log("Creating video player. Total videoIds:",videoIds.length, " Total durations", durations.length, " (these should match)");
-	console.log("Total content length: >=", Math.floor(getTotalPlaylistDuration() / 60 / 60 / 24), " days");
+	console.log("Creating video player. Total videoIds:",videoIds.length, " Total durations", durations.length, " Total videoNames:", videoTitles.length, " (these should match)");
+	const totalPlaylistDuration = getTotalPlaylistDuration();
+	console.log("Total content length: >=", Math.floor(totalPlaylistDuration / 60 / 60 / 24), " days. (",totalPlaylistDuration,"seconds)");
 	createVideoPlayer();
 	setCurrentlyPlaying("Currently tuning Brutal TV...");
 }
